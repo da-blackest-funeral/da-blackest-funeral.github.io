@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Second Task</title>
+    <link rel="stylesheet" href="2.css">
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <img src="image.png"
+         alt="logo" 
+         class="logo">
+        <p class="name"> Название сайта </p>
+      </div>
+    </header>
+    <nav class="topnav">
+      <a href="#" class="topnav">Contacts</a>
+      <a href="#" class="topnav">About</a>
+      <a href="#" class="topnav">Pricing</a>
+    </nav>
+    <div class="main">
+      <h1 id="top">Якорь(пример)</h1>
+      <br>
+      <ol>
+        <li>
+          <a href="http://vk.ru">VK</a>
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/">W3School</a>
+        </li>
+        <li>
+          <a href="ftp://sisadmin.ru/hranilishe/1.txt">Без авторизации</a>
+        </li>
+        <li>
+          <a href="ftp://test:password@sisadmin.ru/hranilishe/1.txt">С авторизацией</a>
+        </li>
+        <li>
+          <a href="https://test.html#bottom">Ссылка на часть страницы(якорь)</a>
+        </li>
+        <li>
+          <a href="#top">Ссылка на начало страницы</a>
+        </li>
+        <li>
+          <a href="https://github.com/?branch=master&repo=chat">Ссылка с двумя GET параметрами</a>
+        </li>
+        <li>
+          <h2>Nav Menu</h2>
+          <a href="#anchor">Начало страницы</a>
+          <a href="#">Главная</a>
+        </li>
+        <li>
+          <a>Ссылка без href</a> <!-- зачем -->
+        </li>
+        <li>
+          <a href="">Ссылка с пустым href</a>
+        </li>
+        <li>
+          <a href="https://test.com" rel="nofollow">Ссылка nofollow</a>
+        </li>
+        <li>
+          <a href="https://test.com" rel="noindex">Ссылка noindex</a>
+        </li>
+        <li>
+          <h2>Пример абзаца для контекстной ссылки</h2>
+          <p>
+            <a href="https://www.lipsum.com/feed/html">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. Vivamus semper in arcu sit amet iaculis. Duis convallis congue ultrices. Etiam nisi nisi, fringilla nec vulputate eget, cursus at eros. Nunc scelerisque facilisis lacus, sed lobortis lacus pretium a. Proin volutpat, erat semper luctus pretium, eros ex mollis turpis, vel scelerisque.
+          </p>
+        </li>
+        <li>
+          <a href="https://self-learning.ru/course/sql-basics?utm_source=infocomp&utm_medium=banner&utm_campaign=sqlbasics&utm_content=sidebar">
+          <img src="image.jpg" width="500" height="500" alt="flower">
+          </a>
+        </li>
+        <li>
+          <img src="image.jpg" width="800" height="800" usemap="#navigation" alt="map">
+          <map name="navigation">
+            <area shape="circle"
+            coords="400,400,200"
+            href="https://www.php.net/manual/ru/book.json.php"
+            alt="circle">
+            <area shape="rect"
+            coords="0,0,200,200"
+            href="https://info-comp.ru/database-normalization"
+            alt="rectangle">
+          </map>
+        </li>
+        <li>
+          <a href="demo.html">Относительная ссылка на файл в том же каталоге</a>
+        </li>
+        <li>
+          <a href="about/contacts.html">Относительная ссылка на файл в каталоге about</a>
+        </li>
+        <li>
+          <a href="../Веб-разработка(черновик).pdf">Относительная ссылка на файл в каталоге, выше нынешнего на один</a>
+        </li>
+        <li>
+          <a href="../../random.html">Относительная ссылка на файл двумя каталогами выше</a>
+        </li>
+        <li>
+          <a href="/">Сокращенная ссылка на главную</a>
+        </li>
+        <li>
+          <a href="./form.html">Сокращенная на внутреннюю</a>
+        </li>
+      </ol>
+      <br>
+      <form action="#" method="post">
+        <h2>Имя:</h2>
+        <input type="text"
+          name="fill-name"
+          value="Name:"><br>
+        <h2>E-mail:</h2>
+        <input type="email"
+          name="email"
+          value="email@mail.ru"><br>
+        <h2>Date:</h2>
+        <input type="date"
+          name="date"
+          value="2020-10-12"><br>
+        <h2>Gender:</h2>
+        <input type="radio"
+          checked="checked"
+          name="gender"
+          value="Мужской" />Мужской<br>
+        <input type="radio"
+          name="gender"
+          value="Женский" />Женский<br>
+        <h2>Количество конечностей:</h2>
+        <input type="radio" checked="checked"
+          name="count" value="Четыре" />Четыре<br>
+        <input type="radio"
+          name="count" value="Пять" />Пять<br>
+        <h2>Super Powers: </h2>
+        <select name="superpowers"
+          multiple="multiple">
+          <option value="Значение1">Высыпаться</option>
+          <option value="Значение2" selected="selected">Левитация</option>
+          <option value="Значение3" selected="selected">Бессмертие</option>
+        </select>
+        <br>
+        <h2>Биография</h2>
+        <textarea name="textarea"></textarea>
+        <br>
+        <input type="checkbox"
+          name="check">С контрактом ознакомлен(а)<br>
+        <input type="submit" value="Отправить">
+      </form>
+    </div>
+  </body>
+  <footer>
+      <p class="bottom">Казарян Фёдор, 2021</p>
+    </footer>
+</html>
