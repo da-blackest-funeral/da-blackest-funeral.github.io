@@ -41,6 +41,11 @@ table tr:nth-child(2n+1) {
 	background-color: black;
 }
 
+.header-container {
+	max-width: 960px;
+	margin: auto;
+}
+
 .bottom {
 	padding-right: 30px;
 	float: right;
@@ -50,8 +55,8 @@ table tr:nth-child(2n+1) {
 }
 
 footer {
-	background-color: #1E434C;	
-	height: 100px;
+	background-color: #8D230F;	
+	height: 90px;
 }
 
 .topnav {
@@ -86,12 +91,13 @@ footer {
 }
 
 .top-img {
-	padding: 30px 0px 0px 50px;
-	width: 20%;
+	padding-top: 30px;
 }
 
 .logo {
-	float: left; 
+	float: left;
+	width: 150px;
+	height:100px;
 }
 
 .name {
