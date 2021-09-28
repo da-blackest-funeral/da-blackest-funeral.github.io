@@ -52,7 +52,7 @@ table tr:nth-child(2n+1) {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 960px;
   padding: 0 5px;
   margin: 0 auto;
 }
@@ -65,6 +65,7 @@ table tr:nth-child(2n+1) {
 
 .header {
   padding: 20px 10px;
+  height: 140px;
   background-color: #8D230F;
 }
 
