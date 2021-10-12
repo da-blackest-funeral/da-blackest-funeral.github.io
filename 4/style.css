@@ -53,3 +53,11 @@ a:hover {
 .footer {
   height: 90px;
 }
+
+.context__image {
+  width: 150px;
+}
+
+.context__map {
+  width: 250px;
+}
