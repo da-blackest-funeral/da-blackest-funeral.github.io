@@ -1,0 +1,55 @@
+.body {
+  background-color: #9B4F0F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header__logo {
+  width: 150px;
+  height: 100px;
+}
+
+.header__heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #C99E10;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C99E10;
+}
+
+.footer {
+  background-color: #8D230F;
+}
+
+.header {
+  background-color: #8D230F;
+}
+
+.navigation {
+  background-color: #1E434C;
+}
+
+.nav__link {
+  color: #f2f2f2;
+}
+
+.copyright {
+  color: #C99E10;
+}
+
+.footer {
+  height: 90px;
+}

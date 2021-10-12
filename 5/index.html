@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 задание</title>
+  </head>
+  <body>
+    <h1 class="title">Калькулятор стоимости заказа</h1>
+    <p class="text">Цена товара</p>
+    <form>
+      <input
+        type="text"
+        id="product"
+        value=""
+        placeholder="Цена товара"
+      />
+      <p class="text">Кол-во товара</p>
+      <input
+        type="text"
+        id="lot"
+        value=""
+        placeholder="Кол-во товара"
+      />
+    </form>
+    <br />
+    <button onclick="calculate();">Рассчитать стоимость</button>
+    <br />
+    <div id="cost"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
