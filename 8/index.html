@@ -1,46 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/styles.css">
-	<title>8 task</title>
-</head>
-<body>
-	
-	<button id="change" onclick="document.getElementById('id01').style.display='block'">Login</button>
-
-	<!-- The Modal -->
-	<div id="id01" class="modal">
-
-	  <!-- Modal Content -->
-	  <form class="modal-content animate" action="" method="post">
-
-	    <div class="container">
-	      <label for="uname"><b>Username</b></label>
-	      <input type="text" placeholder="Enter Username" name="uname" required>
-
-	      <label for="psw"><b>Password</b></label>
-	      <input type="password" placeholder="Enter Password" name="psw" required>
-
-	      <button class="sub" type="submit">Login</button>
-	    </div>
-
-	    <div class="container" style="background-color:#f1f1f1">
-
-	      <button id="cancel" 
-	      	type="button" 
-	      	onclick="document.getElementById('id01').style.display='none'" 
-	      	class="cancelbtn">
-	      		Cancel
-	  	  </button>
-
-	    </div>
-	  </form>
-	</div>
-
-	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/main.js"></script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>8 web</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="popup__bg">
+        <form class="popup" id="form">
+          <p class="close-popup">x</p>
+          <div class="label__text">Ваше имя</div>
+          <label>
+            <input id="inputName" type="text" name="name" />
+          </label>
+          <div class="label__text">Ваш email</div>
+          <label>
+            <input id="inputEmail" type="email" name="tel" />
+          </label>
+          <div class="label__text">Ваше сообщение</div>
+          <label>
+            <textarea id="inputMsg" name="message"></textarea>
+          </label>
+          <div class="popup-checkbox__text">
+            согласие с политикой обработки персональных данных
+          </div>
+          <label>
+            <input id="inputCB" type="checkbox" required/>
+          </label>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+      <div class="btn">
+        <button class="open-popup">Login</button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
